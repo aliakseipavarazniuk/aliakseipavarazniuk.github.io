@@ -11,17 +11,17 @@ body {
     text-align: center;
 }
 
-#wrapper {
+#wrapper1 {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-#content {
+#content1 {
     flex: 1 0 auto;
 }
 
-#content .greeting {
+#content1 .greeting {
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     padding-top: 50px;
@@ -30,7 +30,7 @@ body {
     margin: 0 auto;
 }
 
-#content .circle {
+#content1 .circle {
     width: 400px;
     height: 400px;
     background-color: #687271;
@@ -51,23 +51,23 @@ body {
     margin: auto;
 }
 
-#content .mail {
+#content1 .mail {
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     font-size: 20px;
     line-height: 80px;
 }
 
-#footer {
+#footer1 {
     flex: 0 0 auto;
     text-align: center;
     padding-bottom: 50px;
 }
 
-#footer a {
+#footer1 a {
     margin: 10px;
 }
 
-#footer a img {
+#footer1 a img {
     width: 100px;
 }
