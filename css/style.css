@@ -5,7 +5,69 @@
 
 html,
 body {
-    background-color: #2fd4c6;
+    background-color: #6de0d7;
     color: white;
     height: 100%;
+    text-align: center;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#content {
+    flex: 1 0 auto;
+}
+
+#content .greeting {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    padding-top: 50px;
+    max-width: 750px;
+    line-height: 35px;
+    margin: 0 auto;
+}
+
+#content .circle {
+    width: 400px;
+    height: 400px;
+    background-color: #687271;
+    border-radius: 50%;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#content .mail {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 80px;
+}
+
+#footer {
+    flex: 0 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#footer a {
+    margin: 10px;
+}
+
+#footer a img {
+    width: 100px;
 }
