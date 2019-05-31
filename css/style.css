@@ -11,17 +11,17 @@ body {
     text-align: center;
 }
 
-#wrapper1 {
+#wrapper {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-#content1 {
+#content {
     flex: 1 0 auto;
 }
 
-#content1 .greeting {
+#content .greeting {
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     padding-top: 50px;
@@ -30,14 +30,12 @@ body {
     margin: 0 auto;
 }
 
-#content1 .circle {
+#content .circle {
     width: 400px;
     height: 400px;
-    background-color: #687271;
+    background-color: #868e8d;
     border-radius: 50%;
-    text-align: center;
     font-family: 'Mukta', sans-serif;
-    font-weight: 300;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,23 +49,23 @@ body {
     margin: auto;
 }
 
-#content1 .mail {
+#content .mail {
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     font-size: 20px;
     line-height: 80px;
 }
 
-#footer1 {
+#footer {
     flex: 0 0 auto;
     text-align: center;
     padding-bottom: 50px;
 }
 
-#footer1 a {
+#footer a {
     margin: 10px;
 }
 
-#footer1 a img {
+#footer a img {
     width: 100px;
 }
