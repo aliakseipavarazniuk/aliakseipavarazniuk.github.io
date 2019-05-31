@@ -1,4 +1,3 @@
 # aliakseipavarazniuk.github.io
-My own website
-
+My own website.<br>
 Simple website-greeting, done in warm colors.
