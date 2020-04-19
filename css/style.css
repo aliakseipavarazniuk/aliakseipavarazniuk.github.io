@@ -57,6 +57,10 @@ body {
     text-decoration: none;
 }
 
+#content .mail:hover {
+    color: #69bbb5;
+}
+
 #footer {
     flex: 0 0 auto;
     text-align: center;
