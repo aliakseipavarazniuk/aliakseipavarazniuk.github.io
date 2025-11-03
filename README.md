@@ -1,3 +1,2 @@
-# aliakseipavarazniuk.github.io
-My own website.<br>
-Simple website-greeting, done in warm colors.
+# <a href="https://aliakseipavarazniuk.github.io/" target="_blank">https://aliakseipavarazniuk.github.io/</a>
+This is a simple but eye-catching landing page.

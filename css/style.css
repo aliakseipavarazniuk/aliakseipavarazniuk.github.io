@@ -48,12 +48,20 @@ body {
     margin: auto;
 }
 
+@media (max-width: 1024px) {
+    #content .square {
+        width: 100%;
+    }
+}
+
 #content .mail {
     font-family: 'Nunito', sans-serif;
     color: #ffffff;
     font-weight: 200;
     font-size: 25px;
     text-decoration: none;
+    overflow-wrap: break-word;
+    padding: 0 20px;
 }
 
 #content .mail:hover {
@@ -72,4 +80,9 @@ body {
 
 #footer a img {
     width: 100px;
+}
+
+#footer a img:hover {
+    background: #787f7e;
+    border-radius: 50%;
 }

@@ -1,0 +1,25 @@
+{
+  "name": "aliakseipavarazniuk.github.io",
+  "version": "1.0.0",
+  "description": "This is a simple but eye-catching landing page.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass css/style.scss css/style.css --no-source-map --style=expanded",
+    "sass:watch": "sass --watch css/style.scss:css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliakseipavarazniuk/aliakseipavarazniuk.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliakseipavarazniuk/aliakseipavarazniuk.github.io/issues"
+  },
+  "homepage": "https://github.com/aliakseipavarazniuk/aliakseipavarazniuk.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.93.3"
+  }
+}
